@@ -6132,3 +6132,89 @@ footer {
 
 }
 
+body.home-page {
+  background: #070b14;
+  color: #ece6db;
+}
+
+body.home-page header {
+  background: rgba(5, 7, 12, 0.94);
+  border-bottom: 1px solid rgba(217, 171, 82, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+body.home-page .logo-img-home {
+  height: 56px;
+  width: auto;
+}
+
+body.home-page nav a {
+  color: #f2efe8;
+}
+
+body.home-page nav a:hover {
+  color: #e2b665;
+  background: rgba(226, 182, 101, 0.12);
+}
+
+body.home-page nav a.active {
+  background: linear-gradient(135deg, #f0c777 0%, #c69130 100%);
+  color: #111;
+  box-shadow: 0 8px 18px rgba(207, 149, 43, 0.38);
+}
+
+body.home-page .hero {
+  background:
+    linear-gradient(to right, rgba(4, 6, 12, 0.92), rgba(7, 10, 16, 0.77), rgba(18, 24, 36, 0.7)),
+    url('../images/about.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+body.home-page .hero::before {
+  display: none;
+}
+
+body.home-page .hero-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+body.home-page .hero-logo {
+  width: min(620px, 82vw);
+  height: auto;
+  margin: 0 auto 26px;
+  display: block;
+  filter: drop-shadow(0 10px 26px rgba(0, 0, 0, 0.65));
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeInUp 1s ease 0.15s forwards;
+}
+
+body.home-page .hero h1 {
+  padding-top: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  margin-bottom: 14px;
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+body.home-page .hero p {
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  color: #e8ddd0;
+  margin-bottom: 22px;
+}
+
+body.home-page .hero .btn {
+  border: 1px solid #c79232;
+  background: rgba(9, 12, 20, 0.5);
+}
+
+body.home-page .hero .btn:hover {
+  background: linear-gradient(135deg, #efc674 0%, #c99435 100%);
+  color: #101010;
+  border-color: #efc674;
+}
+
