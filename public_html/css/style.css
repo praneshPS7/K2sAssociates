@@ -196,7 +196,7 @@ nav a.active {
 
 .hero {
 
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(20, 20, 20, 0.7), rgba(40, 40, 40, 0.6)), url('../images/Logo V2.png');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(20, 20, 20, 0.7), rgba(40, 40, 40, 0.6)), url('../images/K2S Associates logo2.png');
 
   background-size: cover;
 
@@ -6130,103 +6130,5 @@ footer {
 
   /* filter: brightness(0) invert(1); */
 
-}
-
-body.home-page {
-  background: #ffffff;
-  color: #1a2842;
-}
-
-body.home-page header {
-  background: rgba(5, 7, 12, 0.94);
-  border-bottom: 1px solid rgba(217, 171, 82, 0.3);
-  backdrop-filter: blur(6px);
-}
-
-body.home-page .logo-img-home {
-  height: 56px;
-  width: auto;
-}
-
-body.home-page nav a {
-  color: #f2efe8;
-}
-
-body.home-page nav a:hover {
-  color: #e2b665;
-  background: rgba(226, 182, 101, 0.12);
-}
-
-body.home-page nav a.active {
-  background: linear-gradient(135deg, #f0c777 0%, #c69130 100%);
-  color: #111;
-  box-shadow: 0 8px 18px rgba(207, 149, 43, 0.38);
-}
-
-body.home-page .hero {
-  background-color: #ffffff;
-  background-image: url('../images/K2S Associates logo2.png');
-  background-size: min(920px, 78vw);
-  background-position: center 20%;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
-body.home-page .hero::before {
-  display: none;
-}
-
-body.home-page .hero-content {
-  max-width: min(760px, 92vw);
-  margin: 0 auto;
-  margin-top: clamp(320px, 50vh, 470px);
-  padding: clamp(14px, 2.2vw, 24px) clamp(16px, 3vw, 32px);
-  background: rgba(255, 255, 255, 0.86);
-  border: 1px solid rgba(24, 43, 74, 0.16);
-  border-radius: 16px;
-  box-shadow: 0 14px 34px rgba(19, 35, 62, 0.14);
-}
-
-body.home-page .hero h1 {
-  padding-top: 0;
-  font-size: clamp(2rem, 3.4vw, 3rem);
-  margin-bottom: 14px;
-  color: #182b4a;
-  text-shadow: none;
-  line-height: 1.15;
-  animation: fadeInUp 0.9s ease forwards;
-}
-
-body.home-page .hero p {
-  font-size: clamp(1rem, 1.4vw, 1.2rem);
-  color: #30435f;
-  margin-bottom: 22px;
-  line-height: 1.5;
-  animation: fadeInUp 0.9s ease 0.15s forwards;
-}
-
-body.home-page .hero .btn {
-  border: 1px solid #c79232;
-  background: #ffffff;
-  color: #1a2842;
-  animation: fadeInUp 0.9s ease 0.3s forwards;
-}
-
-body.home-page .hero .btn:hover {
-  background: linear-gradient(135deg, #efc674 0%, #c99435 100%);
-  color: #101010;
-  border-color: #efc674;
-}
-
-@media (max-width: 768px) {
-  body.home-page .hero {
-    background-size: 92%;
-    background-position: center 18%;
-  }
-
-  body.home-page .hero-content {
-    margin-top: clamp(240px, 44vh, 350px);
-    padding: 14px 14px 18px;
-  }
 }
 
