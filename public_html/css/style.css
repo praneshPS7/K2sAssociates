@@ -226,6 +226,54 @@ nav a.active {
 
 }
 
+body.home-page {
+
+  background: #090f1a;
+
+}
+
+body.home-page .hero {
+
+  background: linear-gradient(to right, rgba(6, 10, 20, 0.78), rgba(12, 18, 32, 0.58), rgba(20, 30, 48, 0.72)), url('../images/K2S Associates logo.png');
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+}
+
+body.home-page .hero::before {
+
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+
+}
+
+body.home-page .hero h1 {
+
+  color: #ffffff;
+
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+
+}
+
+body.home-page .hero p {
+
+  color: #e6edf9;
+
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+
+}
+
+body.home-page .hero .btn {
+
+  border: 1px solid #f9a826;
+
+  background: rgba(255, 255, 255, 0.08);
+
+}
+
 
 
 .hero .container {
