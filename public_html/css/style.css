@@ -58,7 +58,7 @@ body.about-page {
 
 body.contact-page {
 
-  background: linear-gradient(to bottom, #1a3a52, #2c5aa0 70%, #162d42);
+  background: linear-gradient(to bottom, #0d1b2a, #152238 70%, #0a0f1a);
 
   min-height: 100vh;
 
@@ -96,7 +96,7 @@ body.service-page {
 
 header {
 
-  background: #1a3a52;
+  background: #0d1b2a;
 
   color: #fff;
 
@@ -186,7 +186,7 @@ nav a {
 
 nav a:hover {
 
-  color: #059669;
+  color: #d4a017;
 
   transform: translateY(-2px);
 
@@ -196,7 +196,7 @@ nav a:hover {
 
 nav a.active {
 
-  background: #059669;
+  background: #d4a017;
 
   color: #111;
 
@@ -240,7 +240,7 @@ nav a.active {
 
 body.home-page {
 
-  background: #1a3a52;
+  background: #0d1b2a;
 
 }
 
@@ -280,7 +280,7 @@ body.home-page .hero p {
 
 body.home-page .hero .btn {
 
-  border: 1px solid #059669;
+  border: 1px solid #d4a017;
 
   background: rgba(255, 255, 255, 0.08);
 
@@ -405,7 +405,7 @@ body.home-page .hero .btn {
 
   text-decoration: none;
 
-  border: 0px solid #059669;
+  border: 0px solid #d4a017;
 
   border-radius: 5px;
 
@@ -423,7 +423,7 @@ body.home-page .hero .btn {
 
 .btn:hover {
 
-  background: #059669;
+  background: #d4a017;
 
   transform: translateY(-3px);
 
@@ -485,7 +485,7 @@ body.home-page .hero .btn {
 
   transform: translateY(0) scale(1);
 
-  color: #059669;
+  color: #d4a017;
 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 
@@ -552,7 +552,7 @@ body.home-page .hero .btn {
 
   font-size: 36px;
 
-  color: #059669;
+  color: #d4a017;
 
   margin-bottom: 20px;
 
@@ -810,7 +810,7 @@ body.home-page .hero .btn {
 
 .service-item:hover h3 {
 
-  color: #059669;
+  color: #d4a017;
 
   transform: translateZ(15px) scale(1.05);
 
@@ -834,7 +834,7 @@ body.home-page .hero .btn {
 
 .card h3 a:hover {
 
-  color: #059669;
+  color: #d4a017;
 
 }
 
@@ -1256,7 +1256,7 @@ body.home-page .hero .btn {
 
   font-weight: 600;
 
-  color: #059669;
+  color: #d4a017;
 
 }
 
@@ -1320,7 +1320,7 @@ body.home-page .hero .btn {
 
 .btn-ok {
 
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%);
 
   color: white;
 
@@ -1344,7 +1344,7 @@ body.home-page .hero .btn {
 
 .btn-ok:hover {
 
-  background: linear-gradient(135deg, #047857 0%, #059669 100%);
+  background: linear-gradient(135deg, #b8860b 0%, #d68410 100%);
 
   transform: translateY(-2px);
 
@@ -1493,9 +1493,9 @@ body.home-page .hero .btn {
 
 .service-highlighted {
 
-  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 100%) !important;
 
-  border: 3px solid #059669 !important;
+  border: 3px solid #d4a017 !important;
 
   box-shadow: 0 15px 35px rgba(249, 168, 38, 0.4) !important;
 
@@ -1584,7 +1584,7 @@ textarea:focus {
 
   outline: none;
 
-  border-color: #059669;
+  border-color: #d4a017;
 
   box-shadow: 0 0 10px rgba(249, 168, 38, 0.2);
 
@@ -1594,7 +1594,7 @@ textarea:focus {
 
 footer {
 
-  background: #1a3a52;
+  background: #0d1b2a;
 
   color: white;
 
@@ -1618,7 +1618,7 @@ footer {
 
   height: 50px;
 
-  background: #059669;
+  background: #d4a017;
 
   color: white;
 
@@ -1666,7 +1666,7 @@ footer {
 
 .back-to-top:hover {
 
-  background: #047857;
+  background: #b8860b;
 
   transform: translateY(-5px);
 
@@ -1784,7 +1784,7 @@ footer {
 
 .about-details h3 {
 
-  color: #059669;
+  color: #d4a017;
 
   font-size: 18px;
 
@@ -1992,7 +1992,7 @@ footer {
 
   margin-top: 20px;
 
-  background: #059669;
+  background: #d4a017;
 
   color: white;
 
@@ -2022,7 +2022,7 @@ footer {
 
 .about-more-btn:hover {
 
-  background: #047857;
+  background: #b8860b;
 
 }
 
@@ -2066,7 +2066,7 @@ footer {
 
   height: 100%;
 
-  background: #047857;
+  background: #b8860b;
 
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
 
@@ -2440,13 +2440,13 @@ footer {
 
   font-weight: 700;
 
-  color: #059669;
+  color: #d4a017;
 
   background: rgba(255, 255, 255, 0.9);
 
   padding: 8px 20px;
 
-  border: 2px solid #059669;
+  border: 2px solid #d4a017;
 
   border-radius: 25px;
 
@@ -4093,7 +4093,7 @@ footer {
 
   min-height: 60vh;
 
-  background: linear-gradient(to bottom, #1a3a52, #152238 70%, #0a0f1a);
+  background: linear-gradient(to bottom, #0d1b2a, #152238 70%, #0a0f1a);
 
   overflow: hidden;
 
@@ -4336,7 +4336,7 @@ footer {
 
 #contact.section.light strong {
 
-  color: #059669;
+  color: #d4a017;
 
 }
 
@@ -4590,7 +4590,7 @@ footer {
 
   height: 4px;
 
-  background: linear-gradient(90deg, #059669, #047857, #059669);
+  background: linear-gradient(90deg, #d4a017, #b8860b, #d4a017);
 
   background-size: 200% 100%;
 
@@ -4637,7 +4637,7 @@ footer {
 
   font-size: 48px;
 
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, #d4a017, #b8860b);
 
   -webkit-background-clip: text;
 
@@ -4729,7 +4729,7 @@ footer {
 
 .point-icon-new {
 
-  color: #059669;
+  color: #d4a017;
 
   margin-right: 10px;
 
@@ -4763,7 +4763,7 @@ footer {
 
   width: 3px;
 
-  background: linear-gradient(180deg, #059669, #047857);
+  background: linear-gradient(180deg, #d4a017, #b8860b);
 
   transform: translateX(-50%);
 
@@ -4817,7 +4817,7 @@ footer {
 
     0 2px 8px rgba(249, 168, 38, 0.1);
 
-  border-right: 4px solid #059669;
+  border-right: 4px solid #d4a017;
 
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
@@ -4875,7 +4875,7 @@ footer {
 
   border-right: none;
 
-  border-left: 4px solid #059669;
+  border-left: 4px solid #d4a017;
 
 }
 
@@ -4895,7 +4895,7 @@ footer {
 
   font-weight: 700;
 
-  color: #059669;
+  color: #d4a017;
 
   margin-bottom: 8px;
 
@@ -4935,7 +4935,7 @@ footer {
 
   height: 16px;
 
-  background: #059669;
+  background: #d4a017;
 
   border-radius: 50%;
 
@@ -5025,7 +5025,7 @@ body.contact-page .contact-item {
 
   height: 3px;
 
-  background: linear-gradient(90deg, #059669, #047857);
+  background: linear-gradient(90deg, #d4a017, #b8860b);
 
   transform: scaleX(0);
 
@@ -5081,7 +5081,7 @@ body.contact-page .contact-item {
 
   font-weight: 700;
 
-  background: linear-gradient(135deg, #2c3e50, #059669);
+  background: linear-gradient(135deg, #2c3e50, #d4a017);
 
   -webkit-background-clip: text;
 
@@ -5201,7 +5201,7 @@ body.contact-page .contact-item {
 
   height: 70px;
 
-  background: linear-gradient(135deg, #059669 0%, #047857 50%, #059669 100%);
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 50%, #d4a017 100%);
 
   background-size: 200% 200%;
 
@@ -5428,7 +5428,7 @@ body.contact-page .contact-item {
 
 .value-card-new:hover .value-number {
 
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, #d4a017, #b8860b);
 
   -webkit-background-clip: text;
 
@@ -5492,7 +5492,7 @@ body.contact-page .contact-item {
 
 .cta-section {
 
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, #d4a017, #b8860b);
 
   padding: 40px;
 
@@ -5544,7 +5544,7 @@ body.contact-page .contact-item {
 
   background: white;
 
-  color: #059669;
+  color: #d4a017;
 
   padding: 15px 35px;
 
@@ -5694,7 +5694,7 @@ body.contact-page .contact-item {
 
   color: #2c3e50;
 
-  background: linear-gradient(135deg, #2c3e50, #059669);
+  background: linear-gradient(135deg, #2c3e50, #d4a017);
 
   -webkit-background-clip: text;
 
@@ -5756,9 +5756,9 @@ body.contact-page .contact-item {
 
   text-align: left;
 
-  border-right: 3px solid #059669;
+  border-right: 3px solid #d4a017;
 
-  border-top: 3px solid #059669;
+  border-top: 3px solid #d4a017;
 
 }
 
@@ -5772,9 +5772,9 @@ body.contact-page .contact-item {
 
   text-align: left;
 
-  border-left: 3px solid #059669;
+  border-left: 3px solid #d4a017;
 
-  border-bottom: 3px solid #059669;
+  border-bottom: 3px solid #d4a017;
 
 }
 
@@ -5788,9 +5788,9 @@ body.contact-page .contact-item {
 
   text-align: left;
 
-  border-right: 3px solid #059669;
+  border-right: 3px solid #d4a017;
 
-  border-top: 3px solid #059669;
+  border-top: 3px solid #d4a017;
 
 }
 
@@ -5804,9 +5804,9 @@ body.contact-page .contact-item {
 
   text-align: left;
 
-  border-left: 3px solid #059669;
+  border-left: 3px solid #d4a017;
 
-  border-bottom: 3px solid #059669;
+  border-bottom: 3px solid #d4a017;
 
 }
 
@@ -5820,13 +5820,13 @@ body.contact-page .contact-item {
 
   text-align: left;
 
-  border-right: 3px solid #059669;
+  border-right: 3px solid #d4a017;
 
-  border-top: 3px solid #059669;
+  border-top: 3px solid #d4a017;
 
-  border-bottom: 3px solid #059669;
+  border-bottom: 3px solid #d4a017;
 
-  border-left: 3px solid #059669;
+  border-left: 3px solid #d4a017;
 
 }
 
@@ -5888,7 +5888,7 @@ body.contact-page .contact-item {
 
   margin-left: 0;
 
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, #d4a017, #b8860b);
 
   -webkit-background-clip: text;
 
@@ -6018,7 +6018,7 @@ body.contact-page .contact-item:hover .contact-icon {
 
   height: 4px;
 
-  background: linear-gradient(90deg, #059669, #047857, #059669);
+  background: linear-gradient(90deg, #d4a017, #b8860b, #d4a017);
 
   background-size: 200% 100%;
 
@@ -6036,7 +6036,7 @@ body.contact-page .contact-item:hover .contact-icon {
 
   color: #2c3e50;
 
-  background: linear-gradient(135deg, #2c3e50, #059669);
+  background: linear-gradient(135deg, #2c3e50, #d4a017);
 
   -webkit-background-clip: text;
 
@@ -6086,7 +6086,7 @@ body.contact-page .contact-item:hover .contact-icon {
 
   outline: none;
 
-  border-color: #059669;
+  border-color: #d4a017;
 
   box-shadow: 0 4px 15px rgba(249, 168, 38, 0.2);
 
@@ -6108,7 +6108,7 @@ body.contact-page .contact-item:hover .contact-icon {
 
 .contact-form .btn {
 
-  background: linear-gradient(135deg, #059669 0%, #047857 50%, #059669 100%);
+  background: linear-gradient(135deg, #d4a017 0%, #b8860b 50%, #d4a017 100%);
 
   background-size: 200% 200%;
 
