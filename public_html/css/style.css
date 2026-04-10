@@ -6164,11 +6164,13 @@ body.home-page nav a.active {
 }
 
 body.home-page .hero {
-  background:
-    linear-gradient(to right, rgba(4, 6, 12, 0.92), rgba(7, 10, 16, 0.77), rgba(18, 24, 36, 0.7)),
-    url('../images/about.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: #070b14;
+  background-image:
+    linear-gradient(to right, rgba(4, 6, 12, 0.9), rgba(7, 10, 16, 0.68), rgba(18, 24, 36, 0.62)),
+    url('../images/K2S Associates logo2.png');
+  background-size: cover, 62%;
+  background-position: center, center 30%;
+  background-repeat: no-repeat, no-repeat;
   min-height: 100vh;
 }
 
@@ -6179,31 +6181,20 @@ body.home-page .hero::before {
 body.home-page .hero-content {
   max-width: 860px;
   margin: 0 auto;
-  padding-top: 64px;
-}
-
-body.home-page .hero-logo {
-  width: min(620px, 82vw);
-  height: auto;
-  margin: 0 auto 26px;
-  display: block;
-  filter: drop-shadow(0 10px 26px rgba(0, 0, 0, 0.65));
-  opacity: 0;
-  transform: translateY(24px);
-  animation: fadeInUp 1s ease 0.15s forwards;
+  padding-top: 430px;
 }
 
 body.home-page .hero h1 {
   padding-top: 0;
-  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-size: clamp(2rem, 3.4vw, 3rem);
   margin-bottom: 14px;
-  color: #ffffff;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  color: #f7f2e9;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 body.home-page .hero p {
-  font-size: clamp(1rem, 1.8vw, 1.35rem);
-  color: #e8ddd0;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  color: #e9decf;
   margin-bottom: 22px;
 }
 
