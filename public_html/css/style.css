@@ -4958,6 +4958,14 @@ footer {
 
 }
 
+body.contact-page .contact-item {
+
+  justify-content: center;
+
+  padding: 12px 56px;
+
+}
+
 
 
 .stat-card-new::after {
@@ -5842,11 +5850,31 @@ footer {
 
 }
 
+body.contact-page .contact-icon {
+
+  position: absolute;
+
+  left: 16px;
+
+  top: 50%;
+
+  margin: 0;
+
+  transform: translateY(-50%);
+
+}
+
 
 
 .contact-item:hover .contact-icon {
 
   transform: scale(1.2) rotate(10deg);
+
+}
+
+body.contact-page .contact-item:hover .contact-icon {
+
+  transform: translateY(-50%) scale(1.2) rotate(10deg);
 
 }
 
